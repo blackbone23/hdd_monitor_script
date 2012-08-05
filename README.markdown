@@ -12,6 +12,16 @@ UNTUK CLIENT :
 - buat user baru untuk harddisk yang baru
 - logout sysadmin, login sebagai user yang baru
 - tambahkan data harddisk utk user yang baru di tab HDD
+
+- tanamkan ssh key public server di setiap client : 
+	- lakukan install ssh server di client (sudo apt-get install openssh-server)
+	- lakukan ssh ke client dari server (ssh <user_client>@<IP_client>)
+	- buat file authorized_keys di folder .ssh (nano authorized_keys)	
+	- tambahkan ssh key public server di file authorized_keys (ssh key ada di .ssh/id_rsa.pub)
+	- logout ssh, lakukan ssh kembali. Jika tidak diminta password maka tutorial bagian ini berhasil.
+
+
+
 - jalankan script psutil_partition.py dari command shell user baru(lihat Cara Eksekusi script python dari command shell), untuk menambahkan data partisi harddisk
 
 
