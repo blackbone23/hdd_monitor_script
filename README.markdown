@@ -8,6 +8,7 @@ UNTUK CLIENT :
 - install pip (sudo easy_install pip)
 - install psutil (sudo pip install psutil)
 - install urllib3 (sudo pip install urllib3)
+- install php5-cli
 - login ke ryan.pakar/HDD-Monitoring/hdd_monitor sebagai sysadmin
 - buat user baru untuk harddisk yang baru
 - logout sysadmin, login sebagai user yang baru
