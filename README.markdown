@@ -2,7 +2,7 @@ UNTUK CLIENT :
 
 - install python-setuptools dan python-dev
 - install git-core
-- buat ssh-keycgen
+- buat ssh-keygen -> ssh-keygen -t rsa -C 'user@user'
 - masukkan ssh keygen di git
 - clone repos hdd-monitor-script
 - install pip (sudo easy_install pip)
