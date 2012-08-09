@@ -10,6 +10,7 @@ UNTUK CLIENT :
 - install urllib3 (sudo pip install urllib3)
 - install php5-cli
 - install cron
+- tambahkan host ryan.pakar di /etc/hosts
 - login ke ryan.pakar/HDD-Monitoring/hdd_monitor sebagai sysadmin
 - buat user baru untuk harddisk yang baru
 - logout sysadmin, login sebagai user yang baru
