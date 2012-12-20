@@ -11,7 +11,11 @@ UNTUK CLIENT :
 - install dan konfigurasi apache
 - install php5-cli
 - install cron
+<<<<<<< HEAD
 - intall opessh-server(sudo apt-get install openssh-server)
+=======
+- tambahkan host ryan.pakar di /etc/hosts
+>>>>>>> 7e14030a721912e93ea725d63fc6b82c6a12edd3
 - login ke ryan.pakar/HDD-Monitoring/hdd_monitor sebagai sysadmin
 - buat user baru untuk harddisk yang baru
 - logout sysadmin, login sebagai user yang baru
